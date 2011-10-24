@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+# coding: utf-8
+
+$:.unshift File.join(File.dirname(__FILE__), *%w[.. lib])
+
+require 'mailfilter'
+
+mail = MailFilter::Main.new
+
+# Example:
+# mail.add("Nagios", "from => nagios@example.com, in INBOX, to INBOX.Nagios")
+
+mail.run

@@ -1,0 +1,1 @@
+{"sleep_time":"1","port":"143","username":"user@example.com","log_dest":"file","host":"imap.example.com","password":"s3cret","usessl":"false","logfile_path":"logs/imap_operations.sample.log","filter_file":"config/filters.json.sample"}
